@@ -1,0 +1,15 @@
+@import "../node_modules/bulma/bulma.sass";
+
+.notification.fondo{
+    background-color: white;
+  }
+
+.title.is-4{
+    font-size: 1.5rem;
+    color: green;
+}
+
+p, li, h3, h4, h5{
+  text-align: justify;
+  font-family: sans-serif;
+}

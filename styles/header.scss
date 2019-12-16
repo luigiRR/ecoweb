@@ -1,0 +1,107 @@
+@import "../node_modules/bulma/bulma.sass";
+
+.header{
+  background-image: url("/static/gr.jpg");
+  background-size: cover; 
+  min-height: 80vh;
+}
+
+/* .header:before{
+  content: "";
+  width: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: linear-gradient(to right top, #1f3705, #3b600d, #5c8c12, #80bb15, #a8eb12);
+  opacity: 0.67;
+  z-index: 0.5;
+} */
+
+.has-background{
+  transition: all 1s ease;
+}
+
+/* .is-info{
+  background: url(/static/gr.jpg) center center;
+  max-height: 100rem;
+}
+
+.is-info{
+  content: none;
+  background-image: linear-gradient(to right, #075353, #007b66, #00a365, #51c94f, #a8eb12);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.navbar-dropdown{
+  background-color: #ffffff;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+  display: none;
+  font-size: 0.875rem;
+  left: 0;
+
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  border-top: none;
+  border-bottom: 3px solid #3273dc;
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+.hero .navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 0.5rem;
+  padding: 0.1px;
+}
+
+@media screen and (min-width: 992px){
+
+  .hero .is-info .navbar-menu{
+    background-color: transparent rgba(0, 0, 0, 0.3);
+  }
+}
+
+.hero.is-info .navbar-link:hover, .hero.is-info a.navbar-item:hover{
+    background-color:  transparent;
+}
+
+.navbar-item.is-hoverable, a.navbar-item{
+    padding: 0.5px;
+}
+
+.hero.is-info .navbar-item, .hero.is-info .navbar-link{
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar-end{
+    font-size: 1rem;
+}
+
+.navbar-logo img{
+    max-height: 4rem;
+    padding-right: 1.5rem;
+}
+
+p, li, h3, h4, h5{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.hero.is-info{
+    height: 550px;
+    width: 100%;
+}
+
+.hero-head{
+    z-index: 5;
+}  */
